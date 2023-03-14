@@ -4,3 +4,13 @@
 bin/lib/
 Libs/
 .cache/
+.gradle
+.cache
+bin
+Reports
+Libs
+output
+!output/.gitkeep
+build
+.classpath
+.project
