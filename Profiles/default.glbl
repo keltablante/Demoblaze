@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>demoblaze landing page</description>
+      <initValue>'https://demoblaze.com/'</initValue>
+      <name>loginPage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>username</description>
+      <initValue>'pantheonwarrior@gmail.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>encrypted password</description>
+      <initValue>'HVaCOTVFgEIC6qZjnDPDbA=='</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
