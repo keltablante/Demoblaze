@@ -21,6 +21,7 @@ class Index {
 			WebUI.deleteAllCookies()
 			WebUI.navigateToUrl(GlobalVariable.loginPage)
 			KeywordUtil.markPassed("Browser launched successfully")
+			WebUI.takeScreenshot('C:\\Users\\Michael\\Documents\\Katalon Screenshots\\screenshot.png')
 		}
 		catch(WebElementNotFoundException e) {
 			KeywordUtil.markFailedAndStop("Browser failed to launch")

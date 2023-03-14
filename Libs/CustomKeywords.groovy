@@ -9,19 +9,19 @@ import java.lang.String
 
 
 
-def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile"(
+def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot"(
     	TestObject object	
      , 	String file	) {
-    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFile(
+    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFileUsingRobot(
         	object
          , 	file)
 }
 
 
-def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot"(
+def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile"(
     	TestObject object	
      , 	String file	) {
-    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFileUsingRobot(
+    (new com.kms.katalon.keyword.uploadfile.UploadFile()).uploadFile(
         	object
          , 	file)
 }
